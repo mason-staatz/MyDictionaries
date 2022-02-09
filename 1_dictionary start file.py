@@ -111,9 +111,8 @@ print()
 print("*****  end section 7 ********")
 print()
 
-
 print()
-print("*****  start section 8 - using git and clear ********")
+print("*****  start section 8 - using get and clear ********")
 print()
 
 phone = phonebook.get("Chris", "Key not found")
@@ -157,7 +156,7 @@ print("*****  end section 10 ********")
 print()
 
 """
-
+'''
 print()
 print("*****  start section 11 - using random and converting to list ********")
 print()
@@ -172,5 +171,6 @@ print()
 print("*****  end section 11 ********")
 print()
 
+
 """
-"""
+'''
