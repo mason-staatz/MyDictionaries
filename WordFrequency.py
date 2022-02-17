@@ -1,11 +1,15 @@
+import re
+
 infile = open("AI.txt", "r")
 
 
 dict = {}
 
-count = 0
+
 for word in infile:
-    for t in word.split():
+    ret = re.sub("[^A-Za-z0-9 ]+", "", word)
+    word1 = ret.split()
+    for t in word1:
         if t in dict:
             dict[t] += 1
         else:

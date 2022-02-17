@@ -95,13 +95,14 @@ print()
 print("*****  end section 6 ********")
 print()
 
+"""
 
 print()
 print("*****  start section 7 - iterate through both key and value pair********")
 print()
 
-for phonebook_tuple in phonebook.items():
-    print(phonebook_tuple)
+# for phonebook_tuple in phonebook.items():
+# print(phonebook_tuple)
 
 for key, value in phonebook.items():
     print(key)
@@ -110,6 +111,8 @@ for key, value in phonebook.items():
 print()
 print("*****  end section 7 ********")
 print()
+
+"""
 
 print()
 print("*****  start section 8 - using get and clear ********")
@@ -155,8 +158,7 @@ print()
 print("*****  end section 10 ********")
 print()
 
-"""
-'''
+
 print()
 print("*****  start section 11 - using random and converting to list ********")
 print()
@@ -171,6 +173,4 @@ print()
 print("*****  end section 11 ********")
 print()
 
-
 """
-'''

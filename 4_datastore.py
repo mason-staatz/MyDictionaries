@@ -31,7 +31,7 @@ outfile = open("retail_space.csv", "w")
 outfile.write("room-number, use, sq-ft, price\n")
 
 print(datastore["medical"])
-for l in datastore("medical"):
+for l in datastore["medical"]:
     outfile.write(
         str(l["room-number"])
         + ","
